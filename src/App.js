@@ -3,16 +3,26 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import getChatLog from './service';
+import MessageList, { messageListProps } from './MessageList';
 
 import './App.css';
 
-export class App extends Component {
+class App extends Component {
+  componentDidMount() {
+    this.props.getChatLog();
+  }
   render() {
+    const { messages } = this.props;
     return (
-      <h1>Hello!</h1>
+      <MessageList messages={messages} />
     );
   }
 }
+
+App.propTypes = messageListProps;
+App.defaultProps = {
+  messages: []
+};
 
 const mapStateToProps = state => {
   return {

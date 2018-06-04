@@ -1,8 +1,8 @@
-import { getMessages } from './data';
+import { getMessages, getMembers } from './data';
 
 export default function getChatLog() {
   return {
     type: 'MESSAGES_LOADING',
-    payload: getMessages()
+    payload: Promise.all([getMessages(), getMembers()])
   };
 }

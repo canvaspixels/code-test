@@ -1,0 +1,369 @@
+exports[`MessageListItem matches snapshot 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <li>
+    <a
+        href=""
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}>
+        <img
+            alt=""
+            src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+        <div>
+            Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+        </div>
+        <time
+            dateTime="2017-02-09T04:27:38Z">
+            9/2/2017
+        </time>
+    </a>
+</li>,
+  "nodes": Array [
+    <li>
+      <a
+            href=""
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}>
+            <img
+                  alt=""
+                  src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+            <div>
+                  Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+            </div>
+            <time
+                  dateTime="2017-02-09T04:27:38Z">
+                  9/2/2017
+            </time>
+      </a>
+</li>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <MessageListItem
+        message={
+                Object {
+                        "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+                        "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+                        "timestamp": "2017-02-09T04:27:38Z",
+                        "user": Object {
+                          "avatar": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+                          "email": "arosec@bbb.org",
+                          "firstName": "Albert",
+                          "id": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+                          "ip": "20.79.231.223",
+                          "lastName": "Rose",
+                        },
+                        "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+                      }
+        } />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": MessageListItem {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "hideUser": [Function],
+        "props": Object {
+          "message": Object {
+            "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+            "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+            "timestamp": "2017-02-09T04:27:38Z",
+            "user": Object {
+              "avatar": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+              "email": "arosec@bbb.org",
+              "firstName": "Albert",
+              "id": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+              "ip": "20.79.231.223",
+              "lastName": "Rose",
+            },
+            "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+          },
+        },
+        "refs": Object {},
+        "showUser": [Function],
+        "state": Object {
+          "showUser": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <li>
+          <a
+                    href=""
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}>
+                    <img
+                              alt=""
+                              src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+                    <div>
+                              Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+                    </div>
+                    <time
+                              dateTime="2017-02-09T04:27:38Z">
+                              9/2/2017
+                    </time>
+          </a>
+</li>,
+        "_debugID": 2,
+        "_renderedOutput": <li>
+          <a
+                    href=""
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}>
+                    <img
+                              alt=""
+                              src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+                    <div>
+                              Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+                    </div>
+                    <time
+                              dateTime="2017-02-09T04:27:38Z">
+                              9/2/2017
+                    </time>
+          </a>
+</li>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <MessageListItem
+    message={
+        Object {
+            "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+            "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+            "timestamp": "2017-02-09T04:27:38Z",
+            "user": Object {
+              "avatar": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+              "email": "arosec@bbb.org",
+              "firstName": "Albert",
+              "id": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+              "ip": "20.79.231.223",
+              "lastName": "Rose",
+            },
+            "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+          }
+    } />,
+}
+`;
+
+exports[`MessageListItem matches snapshot with user’s email shown 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <li>
+    <a
+        href=""
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}>
+        <img
+            alt=""
+            src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+        <div>
+            Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+        </div>
+        <time
+            dateTime="2017-02-09T04:27:38Z">
+            9/2/2017
+        </time>
+    </a>
+    <div>
+        arosec@bbb.org
+    </div>
+</li>,
+  "nodes": Array [
+    <li>
+      <a
+            href=""
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}>
+            <img
+                  alt=""
+                  src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+            <div>
+                  Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+            </div>
+            <time
+                  dateTime="2017-02-09T04:27:38Z">
+                  9/2/2017
+            </time>
+      </a>
+      <div>
+            arosec@bbb.org
+      </div>
+</li>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <MessageListItem
+        message={
+                Object {
+                        "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+                        "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+                        "timestamp": "2017-02-09T04:27:38Z",
+                        "user": Object {
+                          "avatar": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+                          "email": "arosec@bbb.org",
+                          "firstName": "Albert",
+                          "id": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+                          "ip": "20.79.231.223",
+                          "lastName": "Rose",
+                        },
+                        "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+                      }
+        } />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": MessageListItem {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "hideUser": [Function],
+        "props": Object {
+          "message": Object {
+            "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+            "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+            "timestamp": "2017-02-09T04:27:38Z",
+            "user": Object {
+              "avatar": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+              "email": "arosec@bbb.org",
+              "firstName": "Albert",
+              "id": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+              "ip": "20.79.231.223",
+              "lastName": "Rose",
+            },
+            "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+          },
+        },
+        "refs": Object {},
+        "showUser": [Function],
+        "state": Object {
+          "showUser": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <li>
+          <a
+                    href=""
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}>
+                    <img
+                              alt=""
+                              src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+                    <div>
+                              Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+                    </div>
+                    <time
+                              dateTime="2017-02-09T04:27:38Z">
+                              9/2/2017
+                    </time>
+          </a>
+          <div>
+                    arosec@bbb.org
+          </div>
+</li>,
+        "_debugID": 4,
+        "_renderedOutput": <li>
+          <a
+                    href=""
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}>
+                    <img
+                              alt=""
+                              src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+                    <div>
+                              Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+                    </div>
+                    <time
+                              dateTime="2017-02-09T04:27:38Z">
+                              9/2/2017
+                    </time>
+          </a>
+          <div>
+                    arosec@bbb.org
+          </div>
+</li>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <MessageListItem
+    message={
+        Object {
+            "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+            "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+            "timestamp": "2017-02-09T04:27:38Z",
+            "user": Object {
+              "avatar": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+              "email": "arosec@bbb.org",
+              "firstName": "Albert",
+              "id": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+              "ip": "20.79.231.223",
+              "lastName": "Rose",
+            },
+            "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+          }
+    } />,
+}
+`;
